@@ -1,0 +1,677 @@
+/******* Figma style start******/
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+:root {
+    --color-text: #272D38;
+    --color-text1: #FFFFFF;
+    --background-color: #F6F6F6;
+    --color-link: #667085;
+    --font-text: 'Inter';
+    --color-button: #8EADD5;
+}
+
+/* Unversal code start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: var(--color-text);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 44px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+
+}
+
+.container {
+    width: 390px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Unversal code finish*/
+/* Header start */
+nav .nav_link {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.6rem 0 10rem 0;
+    align-items: center;
+}
+
+.nav_log a {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    text-transform: capitalize;
+}
+
+.icona i {
+    width: 2rem;
+    height: 1.6rem;
+}
+
+.header_section-text h1 {
+    width: 37.8rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+}
+
+.header_section-text p {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+}
+
+.header_section-text button {
+    border-radius: 0.8rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-text1);
+    background-color: var(--color-button);
+    padding: 1rem 2.4rem;
+    margin: 0 auto;
+    margin-bottom: 4.8rem;
+}
+
+.header_section-imgs img {
+    width: 35.8rem;
+    height: 35.8rem;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+}
+
+/* Header finish */
+/* Main start */
+
+#log_section p {
+    text-align: center;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: var(--color-link);
+    margin-bottom: 2.4rem;
+}
+
+#log_section .imags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    border-radius: 0.8rem;
+    padding: 3.2rem 1.6rem;
+    text-align: center;
+    margin-bottom: 8.8rem;
+}
+
+.imags img {
+    width: 7rem;
+    height: 2.1rem;
+}
+
+
+#About_section .brind_part .brind-text h2 {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+}
+
+.brind-text p {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 3.2rem;
+}
+
+.brind-text .icons a {
+    transform: rotate(90deg);
+    margin-left: 20rem;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+
+}
+
+.brind-text .icons a i {
+    transform: rotate(90deg);
+    margin: 0;
+}
+
+.brind-imags img {
+    width: 35.8rem;
+    height: 35.8rem;
+    margin-bottom: 12rem;
+}
+
+#card_section h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+
+}
+
+#card_section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 1.6rem;
+}
+
+.box-1 {
+    background: var(--background-color);
+    border-radius: 2rem;
+    padding: 3.2rem 3.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.box-1 img {
+    width: 14.1rem;
+    height: 13rem;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+
+}
+
+.box-1 h3 {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.7rem;
+}
+
+.box-1 p {
+    width: 28.1rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin: 0 auto;
+}
+
+#end_section img {
+    display: none;
+
+}
+
+#end_section {
+    padding: 5.6rem 3.5rem 4.8rem 3.5rem;
+    background: var(--background-color);
+    border-radius: 2rem;
+    margin-bottom: 12.8rem;
+}
+
+#end_section h3 {
+    width: 30.9rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 100%;
+    text-align: center;
+    color: var(--color-text);
+    margin-bottom: 3.2rem;
+}
+
+#end_section p {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: var(--color-text);
+    margin-bottom: 4.8rem;
+}
+
+#end_section button {
+    background: var(--color-button);
+    border-radius: 0.8rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-text1);
+    padding: 1rem 3.1rem;
+    margin: 0 auto;
+}
+
+/* Main finish */
+/* Footer start */
+footer {
+    background-color: var(--background-color);
+
+}
+
+
+#link_section {
+    margin: 0 auto;
+    padding: 10.4rem 0 9.2rem 0;
+}
+
+.text h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 3.4rem;
+}
+
+.text p {
+    margin: 0 auto;
+    width: 18.9rem;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 7.2rem;
+}
+
+.footer_link {
+    margin-bottom: 7.2rem;
+}
+
+.footer_link h4 {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 3.2rem;
+}
+
+.footer_link ol li {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text);
+    margin-bottom: 2.4rem;
+
+}
+
+#footer-log_section a {
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 100%;
+    color: var(--color-text);
+
+}
+
+#footer-log_section {
+    padding-bottom: 2.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer finish */
+@media screen and (min-width: 1240px) {
+    nav {
+        display: flex;
+        /* background-color: red; */
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 97px;
+    }
+
+    .nav_log a {
+        font-family: var(--font-text);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        text-transform: uppercase;
+        color: var(--color-text);
+    }
+
+    nav .nav_link {
+        display: flex;
+        /* background-color: blue; */
+        margin-right: -570px;
+
+
+    }
+
+    .icona a i {
+        display: none;
+    }
+
+    .container {
+        width: 106.5rem;
+        margin: 0 auto;
+    }
+
+    #header_section {
+        display: flex;
+        gap: 80px;
+        margin-bottom: 157px;
+    }
+
+
+
+    .header_section-text h1 {
+        width: 540px;
+        text-align: start;
+        font-family: var(--font-text);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        text-transform: capitalize;
+        color: var(--color-text);
+        margin-bottom: 24px;
+
+    }
+
+    .header_section-text p {
+        width: 525px;
+        text-align: start;
+        font-family: var(--font-text);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: var(--color-text);
+    }
+
+    .header_section-text button {
+        padding: 10px 31px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .header_section-imgs {
+        margin-top: -60px;
+
+    }
+
+    #log_section {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 136px;
+    }
+
+    #log_section p {
+        font-size: 16px;
+    }
+
+    #log_section .imags img {
+        width: 140px;
+        height: 42px;
+    }
+
+    .brind_part:nth-child(1) {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        gap: 180px;
+
+
+    }
+
+    .brind_part:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+        gap: 180px;
+    }
+
+    .brind-text h2 {
+        font-family: var(--font-text);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 100%;
+        text-align: start;
+        text-transform: capitalize;
+        color: var(--color-text);
+        margin-bottom: 2.4rem;
+    }
+
+    .brind-text p {
+        text-align: none;
+        margin: 0;
+    }
+
+    #card_section {
+        margin-bottom: 13.6rem;
+    }
+
+    #card_section h5 {
+        font-size: 1.2rem;
+        display: flex;
+        /* margin-bottom: 1.6rem; */
+    }
+
+    #card_section h2 {
+        width: 435px;
+        margin: 0 auto;
+        font-size: 48px;
+        margin-bottom: 3.8rem;
+
+    }
+
+    .border {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+
+    }
+
+    #About_section .brind_part .brind-text h2 {
+        font-size: 48px;
+        width: 435px;
+        text-align: start;
+        margin-top: 120px;
+
+    }
+
+    #About_section .brind_part .brind-text p {
+        width: 340px;
+        text-align: start;
+    }
+
+    #end_section {
+        display: flex;
+        justify-content: space-between;
+        gap: 90px;
+        padding: 0 89px 0 70px;
+    }
+
+    #end_section img {
+        display: inline-block;
+    }
+
+    .end_section-text {
+        margin-top: 100px;
+    }
+
+    #end_section h3 {
+        width: 435px;
+        font-size: 4.8rem;
+        text-align: start;
+    }
+
+    #end_section p {
+        width: 360px;
+        text-align: start;
+    }
+
+    #end_section button {
+        margin: 0;
+    }
+
+    #link_section {
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        margin: 0;
+
+    }
+
+    .text {
+        margin: 0;
+        width: 18.9rem;
+    }
+
+    .footer_link {
+        text-align: end;
+    }
+
+    .brind-text .icons a i {
+        transform: rotate(0);
+        margin-left: -200px;
+        margin-top: 40px;
+
+    }
+
+    #footer-log_section a {
+        font-size: 20px;
+    }
+    .footer_link ol li{
+        text-align: start;
+   
+    }
+    
+    .footer_link h4 {
+        text-align: start;
+    }
+    
+.text p {
+    text-align:start;
+    font-size: 16px;
+}
+.text h3{
+    display: flex;
+    justify-content:start;
+    align-items:start;
+}
+.footer_link ol li a{
+    text-transform: capitalize;
+}
+}
+
+/******* Figma style finish******/
